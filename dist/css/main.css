@@ -302,8 +302,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 255, 0.9)), to(rgba(0, 0, 255, 0.3))), url("../img/windowShot.jpg") center center;
+  background: linear-gradient(to right, rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.3)), url("../img/windowShot.jpg") center center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,10 +327,12 @@
 .about__bio {
   width: 80%;
   text-align: center;
+  color: white;
 }
 
 .about__bio .text-secondary {
   padding-bottom: 1rem;
+  color: white;
 }
 
 .about .jobs {
@@ -497,7 +499,7 @@
           flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 0px) {
   .projects footer {
     -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
             transform: rotate(90deg) translate(-3rem, -5rem);
@@ -531,8 +533,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.3))), url("../img/windowShot.jpg") center center;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)), url("../img/windowShot.jpg") center center;
   background-size: cover;
 }
 
@@ -630,10 +632,6 @@
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
-  .contact__list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -648,6 +646,7 @@ body {
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+  display: block;
 }
 
 h1,

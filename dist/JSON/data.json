@@ -19,25 +19,23 @@
     },
     "exp": [{
         "title": "Deployable Resume (This website)",
-        "shortDesc": "",
         "section": "Project",
         "careerField": "Web Development",
-        "source": "github.com/clydebaron2000/resume",
-        "img": "",
+        "source": "",
+        "img": "img/codeblock.jpg",
         "skillsUsed": {
             "technical": ["HTML5", "CSS3", "JS", "APIs", "SCSS", "moment.js", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub"],
             "soft": ["Protyping", "organization", "problem-solving"]
         },
-        "bullets": ["website", "website", "webstite"],
+        "bullets": ["this website"],
         "startDate": "08 24 2020",
         "endDate": "08 25 2020"
     }, {
-        "title": "California COVID19 Danger Data",
-        "shortDesc": "",
+        "title": "COVID19 Danger Data",
         "section": "Project",
         "careerField": "Web Development",
-        "source": "github.com/clydebaron2000/Covid-Danger-Data",
-        "img": "",
+        "source": "https://github.com/clydebaron2000/Covid-Danger-Data",
+        "img": "img/CDD.PNG",
         "skillsUsed": {
             "technical": ["HTML5", "CSS3", "JS", "APIs", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub"],
             "soft": ["Protyping", "teamwork", "leadership", "organization", "problem-solving"]
@@ -46,10 +44,35 @@
         "startDate": "08 04 2020",
         "endDate": "08 18 2020"
     }, {
+        "title": "Weather Report",
+        "section": "Project",
+        "careerField": "Web Development",
+        "source": "https://github.com/clydebaron2000/BCShw6",
+        "img": "img/WR.PNG",
+        "skillsUsed": {
+            "technical": ["HTML5", "CSS3", "JS", "APIs", "openWeather API", "VS Code", "Git", "Git Bash", "Git Hub"],
+            "soft": ["Protyping", "organization", "problem-solving"]
+        },
+        "bullets": ["Coded a website that displays weather information by city", "Utilized openWeather API to display weather weekly forecast data as well as 24-hour data"],
+        "startDate": "07 28 2020",
+        "endDate": "08 04 2020"
+    }, {
+        "title": "Daily Schedule",
+        "section": "Project",
+        "careerField": "Web Development",
+        "source": "https://github.com/clydebaron2000/BCShw5",
+        "img": "img/DS.PNG",
+        "skillsUsed": {
+            "technical": ["HTML5", "CSS3", "JS", "Google Maps API", "VS Code", "Git", "Git Bash", "Git Hub", "moment js"],
+            "soft": ["Protyping", "organization", "problem-solving"]
+        },
+        "bullets": ["Coded a website that helps users plan their day and complete tasks", "In the process of developing this project further into a Google-Calander like format"],
+        "startDate": "07 21 2020",
+        "endDate": "07 28 2020"
+    }, {
         "title": "Simple Game AI",
-        "shortDesc": "",
         "section": "",
-        "careerField": "",
+        "careerField": "Electrical Engineering",
         "source": "",
         "img": "",
         "skillsUsed": {
@@ -61,7 +84,6 @@
         "endDate": "06 12 2019"
     }, {
         "title": "Line Following Robot",
-        "shortDesc": "",
         "section": "",
         "careerField": "",
         "source": "",
@@ -75,7 +97,6 @@
         "endDate": "12 15 2019"
     }, {
         "title": "3D Printed Speaker",
-        "shortDesc": "",
         "section": "",
         "careerField": "",
         "source": "",
@@ -89,10 +110,9 @@
         "endDate": "11 10 2018"
     }, {
         "title": "3D Printed brushless DC Motor",
-        "shortDesc": "",
         "section": "",
         "careerField": "",
-        "source": "",
+        "source": "https://cbrapinan.wixsite.com/bedinimotorproject",
         "img": "",
         "skillsUsed": {
             "technical": [],
@@ -103,8 +123,7 @@
         "endDate": "05 20 2017"
     }, {
         "title": "Customer Service Representative",
-        "shortDesc": "",
-        "section": "Work",
+        "section": "",
         "careerField": "",
         "source": "Dominios",
         "img": "",
@@ -117,8 +136,7 @@
         "endDate": ""
     }, {
         "title": "Saddleback Teardown Leader",
-        "shortDesc": "",
-        "section": "Volunteer",
+        "section": "",
         "careerField": "",
         "source": "Saddleback San Diego",
         "img": "",
@@ -131,8 +149,7 @@
         "endDate": ""
     }, {
         "title": "Tutoring Officer",
-        "shortDesc": "",
-        "section": "Volunteer",
+        "section": "",
         "careerField": "",
         "source": "Air Force Junior Reserve Officer Training Corps",
         "img": "",
@@ -145,7 +162,6 @@
         "endDate": "06 15 2018"
     }, {
         "title": "IEEE Social Chair",
-        "shortDesc": "",
         "section": "",
         "careerField": "",
         "source": "",
