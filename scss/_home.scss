@@ -1,0 +1,90 @@
+.home {
+    height: 100%;
+    // padding-top: 40vh;
+    overflow: hidden;
+    // align-items: center;
+    text-align: center;
+    background: linear-gradient( 40deg, rgba($background, 0.9), rgba($theme, 0.3)), url('../img/downtownSkyline.JPG')center center;
+    background-size: cover;
+    &__name {
+        margin-top: 40vh;
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid set-text-color($background);
+    }
+    @include media-sm {
+        .home__name {
+            font-size: 3rem;
+        }
+        .social-icons {
+            transform: translate(-1rem, 0);
+        }
+        footer {
+            transform: rotate(-90deg) translate(5rem, 6rem);
+        }
+    }
+    @include media-md {
+        .home__name {
+            font-size: 5rem;
+        }
+        footer {
+            transform: none;
+        }
+    }
+    @include media-lg {
+        footer {
+            transform: none;
+        }
+        .social-icons {
+            flex-direction: row;
+        }
+    }
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+}
+
+.draggable {
+    touch-action: none;
+    user-select: none;
+}
+
+[data=button] {
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cloud {
+    @include transition-ease;
+    animation: float 6s ease-in-out infinite;
+}
+
+.career {
+    background: $background;
+    color: set-text-color($background);
+}
+
+.tech-skill {
+    background: shade($theme, -1*$scale);
+    color: $background;
+}
+
+.soft-skill {
+    background: shade($theme, -2*$scale);
+    color: $background;
+}

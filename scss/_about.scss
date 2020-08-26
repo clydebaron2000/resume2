@@ -1,0 +1,61 @@
+.about {
+    padding-bottom: 2rem;
+    &__bio-image {
+        height: 50vh;
+        width: 100%;
+        background: linear-gradient( to right, rgba($background, 0.9), rgba($background, 0.3)), url('../img/model-1.jpg') center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+    &__bio {
+        width: 80%;
+        text-align: center;
+        .text-secondary {
+            padding-bottom: 1rem;
+        }
+    }
+    .jobs {
+        width: 60vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        &__job {
+            background: lighten($background, 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $theme;
+            h2,
+            h3 {
+                margin: 0.5rem 0;
+            }
+            h6 {
+                margin: 0.3rem 0;
+            }
+        }
+    }
+    footer {
+        transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+    .social-icons {
+        flex-direction: column;
+    }
+    @include media-md {
+        footer {
+            transform: rotate(90deg) translate(-3rem, -5rem);
+        }
+    }
+    @include media-lg {
+        footer {
+            transform: none;
+        }
+        .social-icons {
+            flex-direction: row;
+        }
+    }
+}

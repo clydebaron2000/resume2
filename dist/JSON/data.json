@@ -1,0 +1,178 @@
+{
+    "careerFields": [{
+        "name": "Web Development",
+        "relatedTechnicalSkills": ["HTML5", "CSS", "JS", "APIs", "node.js", "sass"],
+        "relatedSoftSkills": ["teamwork", "leadership"]
+    }, {
+        "name": "Electrical Engineer",
+        "tag": "Electrical Engineer",
+        "relatedTechnicalSkills": ["Circuit Design", "C", "C++"],
+        "relatedSoftSkills": ["teamwork", "leadership"]
+    }, {
+        "name": "Event Planner",
+        "relatedTechnicalSkills": null,
+        "relatedSoftSkills": ["teamwork", "leadership", "organization"]
+    }],
+    "skills": {
+        "technical": ["HTML5", "CSS3", "JS", "APIs", "SCSS", "moment js", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub", "Python", "C", "C++", "Java", "Autodesk Inventor", "EagleCAD", "CLion", "OSHPark", "Arduino", "MS Word", "MS Excel", "SolidWorks", "Verilog"],
+        "soft": []
+    },
+    "exp": [{
+        "title": "Deployable Resume (This website)",
+        "shortDesc": "",
+        "section": "Project",
+        "careerField": "Web Development",
+        "source": "github.com/clydebaron2000/resume",
+        "img": "",
+        "skillsUsed": {
+            "technical": ["HTML5", "CSS3", "JS", "APIs", "SCSS", "moment.js", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub"],
+            "soft": ["Protyping", "organization", "problem-solving"]
+        },
+        "bullets": ["website", "website", "webstite"],
+        "startDate": "08 24 2020",
+        "endDate": "08 25 2020"
+    }, {
+        "title": "California COVID19 Danger Data",
+        "shortDesc": "",
+        "section": "Project",
+        "careerField": "Web Development",
+        "source": "github.com/clydebaron2000/Covid-Danger-Data",
+        "img": "",
+        "skillsUsed": {
+            "technical": ["HTML5", "CSS3", "JS", "APIs", "JSON", "Google Maps API", "Materialize", "VS Code", "Git", "Git Bash", "Git Hub"],
+            "soft": ["Protyping", "teamwork", "leadership", "organization", "problem-solving"]
+        },
+        "bullets": ["Coded a website that displays SARS COVID-19 infection rate data by county as well as state fire data to help users determine safer counties to evacuate to during the pandemic", "Utilized Google Maps API to display and color code the map by infection rate severity", "Worked a team of three developers to research government sources and display the data in an easy to understand desktop website layout"],
+        "startDate": "08 04 2020",
+        "endDate": "08 18 2020"
+    }, {
+        "title": "Simple Game AI",
+        "shortDesc": "",
+        "section": "",
+        "careerField": "",
+        "source": "",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["Translated ‘Flappy Bird’ Python code to a more object-oriented script to cater to AI", " Implemented a NEAT artificial intelligence to learn to play ’Flappy Bird’"],
+        "startDate": "05 15 2019",
+        "endDate": "06 12 2019"
+    }, {
+        "title": "Line Following Robot",
+        "shortDesc": "",
+        "section": "",
+        "careerField": "",
+        "source": "",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["Achieved ‘Most Accurately Following Robot’, Top 5 overall", "Led four team members of higher expertise to execute our agreed design", "Assembled and programmed a robot using a 3D printed chassis and Arduino system"],
+        "startDate": "11 14 2019",
+        "endDate": "12 15 2019"
+    }, {
+        "title": "3D Printed Speaker",
+        "shortDesc": "",
+        "section": "",
+        "careerField": "",
+        "source": "",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["Final product ran on a 5v battery, connected via Bluetooth and AUX cord", "Designed, soldered, and assembled speaker with 3D printed case", " Used OSH park for custom circuit board fabrication"],
+        "startDate": "10 15 2018",
+        "endDate": "11 10 2018"
+    }, {
+        "title": "3D Printed brushless DC Motor",
+        "shortDesc": "",
+        "section": "",
+        "careerField": "",
+        "source": "",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["5v motor/generator featured in CCTE Engineering Showcase 2017", "Designed, fabricated, and assembled rotor, case and circuitry", "Researched over 50 websites to learn motor fundamentals and industry designs"],
+        "startDate": "02 06 2017",
+        "endDate": "05 20 2017"
+    }, {
+        "title": "Customer Service Representative",
+        "shortDesc": "",
+        "section": "Work",
+        "careerField": "",
+        "source": "Dominios",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["Consistently satisfied customers with product preparation times, cashier, phone operator, driver management during normal and peak hours", " Consistent cleaning above and beyond duties which resulted in higher marks for the store", "Part of the team that trains new CSRs to reduce time for product output"],
+        "startDate": "07 15 2018",
+        "endDate": ""
+    }, {
+        "title": "Saddleback Teardown Leader",
+        "shortDesc": "",
+        "section": "Volunteer",
+        "careerField": "",
+        "source": "Saddleback San Diego",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["Consistently manages restocking of inventory to ensure church property is maintained", "Connects with church volunteers consistently through virtual platforms throughout COVID", "Assists other leaders with organizing events and management of church events"],
+        "startDate": "07 30 2019",
+        "endDate": ""
+    }, {
+        "title": "Tutoring Officer",
+        "shortDesc": "",
+        "section": "Volunteer",
+        "careerField": "",
+        "source": "Air Force Junior Reserve Officer Training Corps",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": ["Lead after school tutoring programto surpass its goal of 100 hours: 124 total tutoring hours", "Developed an additional part of the AFJROTC program which provided student taught courses on public speaking, time management and foreign languages", "Personally tutored 17 hours in Calculus and Physics C"],
+        "startDate": "09 1 2017",
+        "endDate": "06 15 2018"
+    }, {
+        "title": "IEEE Social Chair",
+        "shortDesc": "",
+        "section": "",
+        "careerField": "",
+        "source": "",
+        "img": "",
+        "skillsUsed": {
+            "technical": [],
+            "soft": []
+        },
+        "bullets": [],
+        "startDate": "06 01 2020",
+        "endDate": ""
+    }],
+    "contact": [{
+        "type": "linkedin",
+        "faIcon": "fab fa-linkedin-in",
+        "link": "https://www.linkedin.com/in/clydebaronrapinan/"
+    }, {
+        "type": "github",
+        "faIcon": "fab fa-github",
+        "link": "https://www.github.com/clydebaron2000"
+    }, {
+        "type": "email",
+        "faIcon": "fa fa-envelope",
+        "link": "mailto:crapinan@ucsd.edu"
+    }, {
+        "type": "phone",
+        "faIcon": "fa fa-phone",
+        "link": "tel:8582078528"
+    }]
+}
